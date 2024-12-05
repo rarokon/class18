@@ -15,6 +15,25 @@
   </head>
   <body>
     <div id="main-container">
+      <!--Go to top button-->
+      <div id="go-to-top">
+        <a href="#"><i class="fa-solid fa-arrow-up-from-bracket"></i><br>
+        <span>Top</span></a>
+      </div>
+<!-- End of Go to top button-->
+<!--social media button-->
+      <div id="social">
+        <div id="facebook">
+          <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i><br>        
+        </div>        
+        <div id="x-twitter">
+          <a href="https://x.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i><br>        
+        </div>
+        <div id="youtube">
+          <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i><br>        
+        </div>
+      </div>    
+      <!-- end of social media button-->
       <!--Header section starts-->
       <header id="header">
         <!--Navigation Menu starts-->
@@ -69,11 +88,12 @@
 
         <!--Article section starts-->
         <section id="article-section">
+          <!--Flex div container-->
           <div id="flex-container">
             <!--Article no1-->
             <div id="aticle-container1">
               <div class="article-title">
-                <i class="fa-solid fa-database"></i> &nbsp;Availability of data                
+                <i class="fa-solid fa-database"></i> &nbsp;Availability of data
               </div>
               <div>
                 <p class="article-p">
@@ -114,26 +134,122 @@
             <!--Article no 3-->
             <div id="aticle-container1">
               <div class="article-title">
-                <i class="fa-solid fa-group-arrows-rotate"></i> &nbsp;Acknowledgements
+                <i class="fa-solid fa-group-arrows-rotate"></i>
+                &nbsp;Acknowledgements
               </div>
               <div>
                 <p class="article-p">
-                  <span class="st-first-l"><strong>G</strong></span>roup authorship
-                   (for manuscripts involving a collaboration
+                  <span class="st-first-l"><strong>G</strong></span
+                  >roup authorship (for manuscripts involving a collaboration
                   group): if you would like the names of the individual members
                   of a collaboration Group to be searchable through their
                   individual PubMed records, please ensure that the title of the
                   collaboration Group is included on the title page and in the
                   submission system and also include collaborating author names
                   as the last paragraph of the “Acknowledgements” section.
-                  </p>
+                </p>
               </div>
             </div>
             <!-- End of Article no 3-->
           </div>
+          <!-- End of Flex div container-->
+          <div class="expandable">
+            <fieldset>
+              <legend><b>Data and materials</b></legend>
+              <p>
+                For all journals, SpringerOpen strongly encourages all datasets
+                on which the conclusions of the manuscript rely to be either
+                deposited in publicly available repositories (where available
+                and appropriate) or presented in the main paper or additional
+                supporting files, in machine-readable format (such as spread
+                sheets rather than PDFs) whenever possible. 
+                <details>
+                <summary>Please see the list</summary>                
+                of recommended repositories in our editorial policies. For some
+                journals, deposition of the data on which the conclusions of the
+                manuscript rely is an absolute requirement. Please check the
+                Instructions for Authors for the relevant journal and article
+                type for journal specific policies. For all manuscripts,
+                information about data availability should be detailed in an
+                ‘Availability of data and materials’ section. For more
+                information on the content of this section, please see the
+                Declarations section of the relevant journal’s Instruction for
+                Authors. For more information on SpringerOpen's policies on data
+                availability, please see our editorial policies.
+              </details>
+              </p>
+            </fieldset>
+          </div>
+
+          <!-- float container for quote-->
+        <div id="float-container">
+          <div id="qoute-flex">
+            <div class="user-image">
+              <img src="./rsc/pps.png" alt="user image" />
+            </div>
+            <div>
+              <p id="google-font4">
+                <strong
+                  ><em>
+                    An article is a piece of writing written for a large audience.
+                    The main motive behind writing an article is that it should be
+                    published in either newspapers or magazines or journals so as
+                    to make some difference to the world.</em
+                  >
+                </strong>
+                <br />
+              </p>
+            </div>
+          </div>
+          <div id="signature">
+            <p>
+              <i class="fa-solid fa-handshake"></i>&nbsp;Khalid Saifullah (013)
+            </p>
+          </div>
+        </div>
+        <!--End of Float container-->
         </section>
         <!--End of Article section-->
+
+        <!-- User Feedback form-->
+        <div id="flex-container-feedback">
+          <div id="feedback-cont">      
+            <fieldset>
+                <legend>Feedback Form</legend>
+                <form action="submit">
+                    <div>
+                        <label for="YourName">Your Name:</label>&nbsp;
+                        <input type="text" id="YourName" placeholder="Enter Your Name" required>
+                    </div>
+                   
+                    <div>
+                        <label for="YourEmail">Your Email:</label>&nbsp;
+                        <input type="text" id="YourEmail" placeholder="Enter Your Email" required>
+                    </div>
+                    
+                    <div>                      
+                        <label for="Feedback">Feedback:</label>                      
+                        <textarea id="Feedback" placeholder="Enter Your Feedback" required></textarea>
+                    </div>                    
+                    <button type="submit" class="btn-success">
+                        <i class="fa-solid fa-paper-plane"></i> Submit
+                    </button>
+                    <!-- <input type="submit" class="fa-solid fa-right-to-bracket" value="&#xf043; Submit"> -->
+                </form>
+            </fieldset>
+        </div>
+      </div>
       </div>
     </div>
+    <!--Footer Contents-->
+    <footer>
+      <div id="footer">
+          <div class="headingdiv">
+              <p style="padding-top: 30px;">&copy; 2024 Khalid personal portal | All Right Reserved</p>
+              <p style="padding-bottom: 30px;">Follow Us: &nbsp; <i class="fa-brands fa-facebook"></i> &nbsp&nbsp; <i
+                      class="fa-brands fa-twitter"></i>&nbsp; &nbsp; <i class="fa-brands fa-instagram"></i></p>
+          </div>
+      </div>
+    </footer>
   </body>
 </html>
