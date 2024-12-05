@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Dancing+Script:wght@400..700&family=Doto:wght@100..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Indie+Flower&family=Mr+De+Haviland&family=Petit+Formal+Script&family=Shadows+Into+Light&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal; */
+    color: rgb(204, 204, 202);
+}
+
+body{
+    width: 100%;
+    background-color: #2f2f2f;
+}
+
+#main-container{
+    max-width: 100%; 
+    margin: 0px auto; 
+}
+
+#header{
+    
+}
+
+
+/*=============================================
+=            Navigation menu            =
+=============================================*/
+
+
+#nav-div{
+    margin: 0px auto;
+    text-align: center;
+    height: inherit;
+    background-color: rgb(111, 112, 114);    
+}
+
+#top-nav{
+    font-size: 1.2rem;
+    font-family: "Petit Formal Script", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#top-nav > ul{
+    /* height: inherit; */
+    display: inline-flex;    
+}
+
+#top-nav > ul > li{
+    display: inline;
+    padding: 4px 10px;
+    height: 40px;    
+}
+
+/*=====  End of Navigation menu  ======*/
+
+
+/*=============================================
+=            Image banner css            =
+=============================================*/
+
+#banner > img{
+    height: auto;
+    width: 100%;
+    margin: 0px auto;
+}
+
+/*=====  End of Image banner css  ======*/
+
+#section-container{
+    margin: 0px auto;
+}
+/*=============================================
+=            marquee section css            =
+=============================================*/
+marquee{
+    font-size: 24px;
+    background-color: rgb(111, 112, 114);   
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 40px;
+    padding-top: 3px;
+    letter-spacing: 3px;    
+}
+
+/*=====  End of marquee section css  ======*/
+
+
+/*=============================================
+=            Flex container for article section            =
+=============================================*/
+
+#flex-container{
+    display: flex;
+    width: 920px;
+    margin: 20px auto 0px;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: justify;
+    background: inherit;
+    font-size: 1.3rem;
+}
+
+#aticle-container1{
+    max-width: 300px;
+    border: 1px solid #fbfbd1;
+    box-sizing: content-box;
+    padding: 10px;
+    background-color: rgb(82, 81, 81);    
+}
+
+.article-title{
+    border: 1px solid #fbfbd1;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center; 
+    padding: 3px;
+    font-size: 24px;
+    margin-bottom: 10px;    
+    box-shadow: 0px 0px 1px 3px rgb(29, 28, 30);
+}
+/*=====  End of Flex container for article section  ======*/
+
+
+.st-first-l{
+    font-size: 3rem;
+    color: antiquewhite;
+}
+
+#aticle-container2{
+    max-width: 300px;
+    border: 1px solid #fbfbd1;
+    box-sizing: content-box;
+    padding: 10px;
+    background-color: rgb(82, 81, 81);
+    margin: 0px 30px 0px 30px;
+}

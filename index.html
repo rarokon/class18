@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Basic Layout with CSS</title>
+  </head>
+  <body>
+    <div id="main-container">
+      <!--Header section starts-->
+      <header id="header">
+        <!--Navigation Menu starts-->
+        <div id="nav-div">
+          <nav id="top-nav">
+            <ul>
+              <li>
+                <a href="#" target="_parent"
+                  ><i class="fa-solid fa-house"></i><strong>Home</strong></a
+                >
+              </li>
+              <li>
+                <a href="#" target="_parent"
+                  ><i class="fa-brands fa-product-hunt"></i
+                  ><strong>Our Product</strong></a
+                >
+              </li>
+              <li>
+                <a href="#" target="_parent"
+                  ><i class="fa-brands fa-servicestack"></i
+                  ><strong>Our Service</strong></a
+                >
+              </li>
+              <li>
+                <a href="#" target="_parent"
+                  ><i class="fa-solid fa-address-card"></i
+                  ><strong>About Us</strong></a
+                >
+              </li>
+              <li>
+                <a href="#" target="_parent"
+                  ><i class="fa-solid fa-address-book"></i
+                  ><strong>Contact Us</strong></a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <!-- End of Navigation Menu-->
+        <div id="banner"><img src="/rsc/banner.jpg" alt="Main Banner" /></div>
+      </header>
+      <!--End Header section -->
+      <div id="section-container">
+        <!--Marquee section start-->
+        <section id="marq-section">
+          <marquee behavior="alternate">
+            Thanks for visiting my personal website!!! Please give a positive
+            review to make me inspired to learn more!
+          </marquee>
+        </section>
+        <!-- End of Marquee section -->
+
+        <!--Article section starts-->
+        <section id="article-section">
+          <div id="flex-container">
+            <!--Article no1-->
+            <div id="aticle-container1">
+              <div class="article-title">
+                <i class="fa-solid fa-database"></i> &nbsp;Availability of data                
+              </div>
+              <div>
+                <p class="article-p">
+                  <span class="st-first-l"><strong>A</strong></span
+                  >ll manuscripts must include an ‘Availability of data and
+                  materials’ statement. Data availability statements should
+                  include information on where data supporting the results
+                  reported in the article can be found including, where
+                  applicable, hyperlinks to publicly archived datasets analyzed
+                  or generated during the study. By data we mean the minimal
+                  dataset that would be necessary to interpret, replicate and
+                  build upon the findings reported in the article.
+                </p>
+              </div>
+            </div>
+            <!-- End of Article no1-->
+
+            <!--Article no 2-->
+            <div id="aticle-container2">
+              <div class="article-title">
+                <i class="fa-solid fa-at"></i> &nbsp;Authors' contributions
+              </div>
+              <div>
+                <p class="article-p">
+                  <span class="st-first-l"><strong>T</strong></span
+                  >he individual contributions of authors to the manuscript
+                  should be specified in this section. Guidance and criteria for
+                  authorship can be found in our editorial policies. Please use
+                  initials to refer to each author's contribution in this
+                  section, for example: "FC analyzed and interpreted the patient
+                  data regarding the hematological disease and the transplant.
+                  RH performed the histological examination of the kidney, and
+                  was a major contributor in writing the manuscript.
+                </p>
+              </div>
+            </div>
+            <!--End of Article no 2-->
+            <!--Article no 3-->
+            <div id="aticle-container1">
+              <div class="article-title">
+                <i class="fa-solid fa-group-arrows-rotate"></i> &nbsp;Acknowledgements
+              </div>
+              <div>
+                <p class="article-p">
+                  <span class="st-first-l"><strong>G</strong></span>roup authorship
+                   (for manuscripts involving a collaboration
+                  group): if you would like the names of the individual members
+                  of a collaboration Group to be searchable through their
+                  individual PubMed records, please ensure that the title of the
+                  collaboration Group is included on the title page and in the
+                  submission system and also include collaborating author names
+                  as the last paragraph of the “Acknowledgements” section.
+                  </p>
+              </div>
+            </div>
+            <!-- End of Article no 3-->
+          </div>
+        </section>
+        <!--End of Article section-->
+      </div>
+    </div>
+  </body>
+</html>
